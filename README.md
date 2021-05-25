@@ -5,7 +5,6 @@ This repository implements MLP-Mixer as proposed in [MLP-Mixer: An all-MLP Archi
 Experiments reported in this repository are on CIFAR-10. 
 
 
-
 ## What's included?
 
 * Distributed training with mixed-precision.
@@ -34,8 +33,12 @@ The table below reports the parameter counts for the different MLP-Mixer variant
 	<img src="https://i.ibb.co/GP21JtY/image.png" width=450/>
 </div><br>
 
-> ResNet20 (0.571969 Million) achieves 78.14% under the exact same training configuration. Refer to [this notebook](https://github.com/sayakpaul/MLP-Mixer-CIFAR10/blob/main/ResNet20.ipynb) for more details. 
+> ResNet20 (0.571969 Million) achieves **78.14%** under the exact same training configuration. Refer to [this notebook](https://github.com/sayakpaul/MLP-Mixer-CIFAR10/blob/main/ResNet20.ipynb) for more details. 
 
 ## Models
 
 You can reproduce the results reported above. The model files are available [here](https://github.com/sayakpaul/MLP-Mixer-CIFAR10/releases/download/Models/models.zip). 
+
+## Acknowledgements
+
+[ML-GDE Program](https://developers.google.com/programs/experts/) for providing GCP credits. 
