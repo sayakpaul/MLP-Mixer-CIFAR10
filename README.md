@@ -27,6 +27,13 @@ MLP-Mixer achieves competitive results. The figure below summarizes top-1 accura
 	<img src="https://i.ibb.co/MSzm7mJ/image.png" width=450/>
 </div><br>
 
+Notable hyperparameters are:
+
+* Image size: 72x72
+* Patch size: 9x9
+* Hidden dimension for patches: 64
+* Hidden dimension for patches: 128
+
 The table below reports the parameter counts for the different MLP-Mixer variants:
 
 <div align="center">
