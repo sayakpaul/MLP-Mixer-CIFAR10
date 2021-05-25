@@ -29,18 +29,12 @@ MLP-Mixer achieves competitive results. The figure below summarizes top-1 accura
 </div><br>
 
 The table below reports the parameter counts for the different MLP-Mixer variants:
-<p align="center">
 
-| Number of MLP  Blocks 	| Parameter Count (Million) 	|
-|:---------------------:	|:-------------------------:	|
-|           2           	|          0.116497         	|
-|           4           	|          0.200209         	|
-|           6           	|          0.283921         	|
-|           8           	|          0.367633         	|
-|           10          	|          0.451345         	|
-</p>
+<div align="center">
+	<img src="https://i.ibb.co/GP21JtY/image.png" width=450/>
+</div><br>
 
-ResNet20 (0.571969 Million) achieves 78.14% under the exact same training configuration. Refer to [this notebook](https://github.com/sayakpaul/MLP-Mixer-CIFAR10/blob/main/ResNet20.ipynb) for more details. 
+> ResNet20 (0.571969 Million) achieves 78.14% under the exact same training configuration. Refer to [this notebook](https://github.com/sayakpaul/MLP-Mixer-CIFAR10/blob/main/ResNet20.ipynb) for more details. 
 
 ## Models
 
