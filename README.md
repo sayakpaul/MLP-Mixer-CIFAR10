@@ -4,12 +4,14 @@ This repository implements MLP-Mixer as proposed in [MLP-Mixer: An all-MLP Archi
 
 Experiments reported in this repository are on CIFAR-10. 
 
-
 ## What's included?
 
 * Distributed training with mixed-precision.
 * Visualization of the token-mixing MLP weights.
 * A TensorBoard callback to keep track of the learned linear projections of the image patches.
+
+https://user-images.githubusercontent.com/22957388/119498624-71a5f880-bd83-11eb-8b4e-c9e110f6c3db.mov
+
 
 ## Notebooks
 
