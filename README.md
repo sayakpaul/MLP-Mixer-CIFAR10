@@ -25,10 +25,11 @@ Experiments reported in this repository are on CIFAR-10.
 MLP-Mixer achieves competitive results. The figure below summarizes top-1 accuracies on CIFAR-10 test set with respect to varying MLP blocks. 
 
 <div align="center">
-	<img src="https://i.ibb.co/MSzm7mJ/image.png" width=700/>
-</div>
+	<img src="https://i.ibb.co/MSzm7mJ/image.png" width=450/>
+</div><br>
 
 The table below reports the parameter counts for the different MLP-Mixer variants:
+<p align="center">
 
 | Number of MLP  Blocks 	| Parameter Count (Million) 	|
 |:---------------------:	|:-------------------------:	|
@@ -37,7 +38,7 @@ The table below reports the parameter counts for the different MLP-Mixer variant
 |           6           	|          0.283921         	|
 |           8           	|          0.367633         	|
 |           10          	|          0.451345         	|
-
+</p>
 
 ResNet20 (0.571969 Million) achieves 78.14% under the exact same training configuration. Refer to [this notebook](https://github.com/sayakpaul/MLP-Mixer-CIFAR10/blob/main/ResNet20.ipynb) for more details. 
 
